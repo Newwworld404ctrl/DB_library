@@ -1,6 +1,6 @@
 MySQL database για το σύστημα διαχείρισης βιβλίων και συγγραφέων.
 
-Τεχνολογίες
+___Τεχνολογίες___
 MySQL
 phpMyAdmin
 Περιγραφή
@@ -9,7 +9,8 @@ phpMyAdmin
 
 Υλοποιείται σχέση Many-to-Many μεταξύ βιβλίων και συγγραφέων μέσω πίνακα συσχέτισης (Join Table).
 
-Περιεχόμενα
+___Περιεχόμενα___
+
 library_db.sql : SQL dump της βάσης δεδομένων.
 Δομή Βάσης
 Books
@@ -25,7 +26,9 @@ Relationship
 Ένα βιβλίο μπορεί να έχει πολλούς συγγραφείς.
 Ένας συγγραφέας μπορεί να έχει πολλά βιβλία.
 Εγκατάσταση
-Δημιουργία Βάσης
+
+___Δημιουργία Βάσης___
+
 CREATE DATABASE library_db;
 Import μέσω phpMyAdmin
 Δημιούργησε τη βάση library_db.
@@ -33,10 +36,12 @@ Import μέσω phpMyAdmin
 Πάτησε Import.
 Επίλεξε το αρχείο library_db.sql.
 Πάτησε Go για την εισαγωγή των δεδομένων.
-Χρήση
+
+___Χρήση___
 
 Η βάση δεδομένων συνδέεται με το Spring Boot Backend μέσω MySQL και χρησιμοποιείται για την αποθήκευση και διαχείριση των δεδομένων της εφαρμογής.
 
-Σχετικά Repositories
+___Σχετικά Repositories___
+
 Backend: Spring Boot REST API
 Frontend: React Application
